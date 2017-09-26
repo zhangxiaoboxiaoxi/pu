@@ -1,0 +1,180 @@
+.contant{
+	width:100%;
+	padding-top:23px;
+	padding-bottom:82px;
+}
+.contant .mincontant{
+	width:960px;
+	margin:0 auto;
+}
+.contant .mincontant .mincontantLeft,.contant .mincontant .mincontantCenter,.contant .mincontant .mincontantRight{
+	float:left;
+}
+.contant .mincontant .mincontantLeft {
+	margin-right:37px;
+}
+.contant .mincontant h2 a{
+	display: block;
+	margin-bottom:10px;
+	color: #707070;
+	font-size:24px;
+}
+.contant .mincontant  h2 .more{
+	background: #34ba88;
+	color:#fff;
+	display: inline-block;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 4px .5em;
+    margin-bottom:12px;
+}
+.contant .mincontant .mincontantLeft .mincontantLeftBottom h3 a{
+	display: block;
+	width:257px;
+	overflow: hidden;
+	white-space: nowrap;/*空白不换行*/ 
+	text-overflow:ellipsis; 
+	color: #484848;
+	font-size:28px;
+	margin-top:15px;
+}
+.contant .mincontant .mincontantLeft .mincontantLeftBottom .font{
+	font-size:14px;
+	line-height:28px;
+	font-family: "微软雅黑";
+	color:#999999;
+}
+.contant .mincontant .mincontantLeft .mincontantLeftBottom p{
+	color:#34ba88;
+	padding-bottom:14px;
+}
+.contant .mincontant .mincontantLeft .mincontantLeftBottom p strong{
+	font-size:34px;
+}
+.contant .mincontant .mincontantLeft .mincontantLeftBottom>a{
+	display: block;
+	width: 262px;
+	font-size:14px;
+	line-height:42px;
+	 color: #8d8d8d;
+}
+.contant .mincontant .mincontantLeft .mincontantLeftBottom>a:hover{
+	color: #484848;
+}
+.contant .mincontant .mincontantLeft .mincontantLeftBottom>a .bottomright{
+	float:right;
+}
+
+.mincontantCenter{
+	margin-right: 37px;
+}
+.mincontantCenter .nlist a .name,.names{
+	display: inline-block;
+	width:288px;
+	overflow: hidden;
+	white-space: nowrap;/*空白不换行*/ 
+	text-overflow:ellipsis; 
+	font-size:14px;
+	line-height:22px;
+	color:#8d8d8d;
+	margin-bottom: 6px;
+}
+.mincontantCenter .nlist a small{
+	display: block;
+}
+.mincontantCenter .nlist a .date{
+	font-size:10px;
+	line-height:20px;
+	color:#adadad;
+	margin-top:8px;
+}
+.names{
+	margin-bottom: 4px;
+}
+.link-tos{
+	padding-top:5px;
+}
+.mincontantCenter .nlist a:hover .date,.mincontantCenter .nlist a:hover .names,.mincontantCenter .nlist a:hover .name{
+	color:#484848;
+}
+.yyy {
+			height: 14px;
+			width: 55px;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+.yyy .y1,.yyy .y2,.yyy .y3 {
+	display: block;
+	width: 14px;
+	margin: 0 2px;
+	height: 13px;
+	background-color: #999;
+	float: left;
+	cursor: pointer;
+}
+.yyy .yy.current {
+	background-color: #34BA88;
+}
+.mincontantRight{
+	width:293px;
+	margin-right: 0px;
+}
+.mincontantRightTopnames{
+	display: inline-block;
+	width:293px;
+	overflow: hidden;
+	white-space: nowrap;/*空白不换行*/ 
+	text-overflow:ellipsis; 
+}
+
+.mincontantRightTop>a{
+	display: block;
+	width:293px;
+	line-height:38px;
+	color:#707070;
+	padding-bottom: 14px;
+	border-bottom:1px solid #cccccc;
+	margin-bottom:21px;
+}
+.mincontantRightTop>a .bottomright{
+	float:right;
+}
+.mincontantRightTop a:hover{
+	color:#484848;
+}
+.mincontantRightBottom a,.mincontantRightBottom a small{
+	display: block;
+}
+.mincontantRightBottom a .name{
+	display: inline-block;
+	width:264px;
+	overflow: hidden;
+	white-space: nowrap;/*空白不换行*/ 
+	text-overflow:ellipsis; 
+}
+.mincontantRightBottom a i{
+	float: right;
+}
+.mincontantRightBottom h2 .more{
+	margin-bottom: 8px !important;
+}
+.mincontantRightBottom a .date{
+	font-size:10px;
+	line-height:20px;
+	color:#999999;
+}
+.mincontantRightBottom a .name{
+	font-size:14px;
+	line-height:22px;
+	 color: #8d8d8d;
+}
+.mincontantRightBottom a:hover .name,.mincontantRightBottom a:hover .date{
+	color:#484848;
+}
+.fair_float{
+	position: fixed;
+	z-index: 99;
+	bottom:50px;
+	right: 20px;
+	cursor: p;
+}

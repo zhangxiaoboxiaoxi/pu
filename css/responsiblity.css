@@ -1,0 +1,78 @@
+.headerBottom ul li:nth-of-type(7){
+	background-image: linear-gradient(to bottom, #989898 0%, #545454 100%);	
+}
+.headerBottom ul li:nth-of-type(7) a{
+	color:white;
+}
+.headerBottom ul li:nth-of-type(1){
+	background-image:none;	
+}
+.headerBottom ul li:nth-of-type(1) a{
+	color:#999999;
+}
+/*-- ------------------------------------------------responsibility  开始-- ------------------------------------------------*/
+.responsibility{
+	width:962px;
+	margin:0 auto;
+	padding-top:24px;	
+	padding-bottom: 97px;
+}
+.responsibility .responsibilityTop{
+	padding-bottom: 36px;
+	border-bottom: 1px dashed #999999;
+	margin-bottom: 35px;
+}
+.responsibility .responsibilityTop ul li{
+	float:left;
+	width:272px;
+	margin-right: 72px;
+}
+.responsibility .responsibilityTop ul li:nth-of-type(3){
+	margin-right: 0px;
+}
+.responsibility .responsibilityTop ul li a p,.responsibility .responsibilityBottom ul li a p{
+	font-size:14px;
+	line-height: 18px;
+	color:#707070;
+	font-family: "微软雅黑";
+	margin-top: 6px;
+}
+.responsibility .responsibilityTop ul li a p img,.responsibility .responsibilityBottom ul li a p img{
+	padding-top:3px;
+	margin-left: 5px;
+}
+.responsibility .responsibilityTop ul li a:hover p,.responsibility .responsibilityBottom ul li a:hover p{
+	color:#000;
+}
+.data{
+	color: #999999;
+	display: block;
+    margin-top: 12px;
+    font-size: 14px;
+    margin-bottom: 5px
+}
+.responsibility .responsibilityBottom ul li{
+	width:448px;
+	float:left;
+	margin-right: 60px;
+}
+.responsibility .responsibilityBottom ul li:nth-of-type(2),
+.responsibility .responsibilityBottom ul li:nth-of-type(4),
+.responsibility .responsibilityBottom ul li:nth-of-type(8),
+.responsibility .responsibilityBottom ul li:nth-of-type(6){
+	margin-right:0px;
+}
+.responsibility .responsibilityBottom h1{
+	font-size:28px;
+	color:#707070;
+}
+.responsibility .responsibilityBottom h1 span{
+	float: right;
+	font-size:12px;
+	color:#34ba88;
+	line-height:28px;
+}
+.responsibility .responsibilityBottom h1 span img{
+	margin-left: 3px;
+}
+/*-- ------------------------------------------------responsibility  结束-- ------------------------------------------------*/

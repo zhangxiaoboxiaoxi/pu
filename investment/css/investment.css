@@ -1,0 +1,159 @@
+.headerBottom ul li:nth-of-type(2),.headerBottom ul li:nth-of-type(1){
+	background-image: none;	
+}
+.headerBottom ul li:nth-of-type(2) a,.headerBottom ul li:nth-of-type(1) a{
+	color:#999999;
+}
+.headerBottom ul li:nth-of-type(9){
+	background-image: linear-gradient(to bottom, #989898 0%, #545454 100%);	
+}
+.headerBottom ul li:nth-of-type(9)>a{
+	color:#fff;
+}
+.headerBottom ul li:nth-of-type(2):hover,.headerBottom ul li:nth-of-type(1):hover{
+	background-image: linear-gradient(to bottom, #989898 0%, #545454 100%);	
+}
+.headerBottom ul li:nth-of-type(2):hover>a,.headerBottom ul li:nth-of-type(1):hover>a{
+	color:#fff;
+}
+/*-- ----------------------------------------------------------------------stock 开始-- ----------------------------------------------------------------------*/
+.stock{
+	width:960px;
+	margin:0 auto;
+	padding-top:25px;
+	padding-bottom:115px;
+}
+.stock h1{
+	font-size:28px;
+	color:#484848;
+}
+.stock h1 small{
+	display: block;
+	margin-top: 9px;
+	color:#999999;
+	font-size:10px;
+	margin-bottom: 43px;
+}
+.minstock h3{
+	font-size:16px;
+	line-height: 23px;
+	margin-bottom: 14px;
+}
+.minstock h3 select{
+	width:58px;
+	font-size:12px;
+	border:1px solid #e2e3ea;
+	margin-left: 8px;
+}
+#imgs img{
+	width:501px;
+	height:298px;
+}
+/*-- ----------------------------------------------------------------------stock结束-- ----------------------------------------------------------------------*/
+
+/*-- ----------------------------------------------------------------------reports 开始-- ----------------------------------------------------------------------*/
+.rightone .rightoneul li a{
+	font-size:14px;
+	line-height: 35px;
+	color:#707070;
+}
+.rightoneSpan{
+	color:#999999;
+	margin-right: 10px;
+}
+.fenye{
+	padding-left:340px;
+	margin-top: 50px;
+}
+.fenye ul li{
+	float:left;
+	width:24px;
+	height:28px;
+	line-height:28px;
+	text-align: center;
+	margin-right: 4px;
+}
+.fenye ul li:nth-of-type(1){
+	background: #666666;
+}
+.fenye ul li:nth-of-type(1) a{
+	color:#fff;
+}
+.fenye ul li:hover{
+	background: #EEEEEE;
+}
+.fenye ul li:nth-of-type(1):hover{
+	background: #666666;
+}
+/*-- ----------------------------------------------------------------------reports 结束-- ----------------------------------------------------------------------*/
+
+/*-- ----------------------------------------------------------------------media 开始-- ----------------------------------------------------------------------*/
+.media,.contancts {
+	width:960px;
+	margin: 0 auto;
+	padding-top:25px;
+	padding-bottom:80px;
+}
+.media h1,.contancts h1,.fairh1{
+	font-size:30px;
+	margin-bottom: 42px;
+	    color: #484848;
+}
+.media h1 small,.contancts  h1 small,.fairh1 small{
+	display: block;
+	font-size:12px;
+	font-weight: normal;
+    line-height: 1;
+    color: #999999;
+}
+.media>ul li{
+	float: left;
+	width:272px;
+	margin-right: 72px;
+}
+.media>ul li a .datas{
+	display: block;
+	margin-top: 12px;
+    font-size: 14px;
+    margin-bottom: 5px;
+        line-height: 21px;
+        color:#999;
+}
+.media>ul li a p{
+	font-size:14px;
+	color:#707070;
+	height:2.5em;
+}
+.media>ul li:hover a p{
+	color:#000;
+}
+.media>ul li a p img{
+	margin-left: 4px;
+}
+.media .fenye{
+	padding-left:417px;
+}
+/*-- ----------------------------------------------------------------------media 结束-- ----------------------------------------------------------------------*/
+
+/*-- ----------------------------------------------------------------------contancts 开始-- ----------------------------------------------------------------------*/
+.contancts{
+	padding-bottom:294px;
+}
+.contancts h2{
+	line-height: 1em;
+    margin-bottom: 12px;
+    font-size:24px;
+    color:#484848;
+}
+.contancts p,.contancts p a{
+	margin-bottom: .5em;
+    line-height: 1.75;
+    color:#867470;
+}
+.contancts p a:hover{
+	color:#000;
+}
+/*-- ----------------------------------------------------------------------contancts 结束-- ----------------------------------------------------------------------*/
+.fairh1 small{
+	margin-top: 12px;
+}

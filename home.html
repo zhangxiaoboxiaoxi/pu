@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/home.css" />
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body data-components="slider">
+		<!-- ------------------------------------------------header  开始-- ------------------------------------------------>
+		<header>
+			<div class="headerTop clearfix">
+				<a href="home.html"><img src="img/header1_03.jpg" alt="" /></a>
+				<div class="headerTopRight">
+					<ul class="clearfix">
+						<li>
+							<a href="#">苗木购销平台</a>
+						</li>
+						<li>
+							<a href="">|</a>
+						</li>
+						<li>
+							<a href="#">员工登录</a>
+						</li>
+						<li>
+							<a href="">|</a>
+						</li>
+						<li>
+							<a href="#">业务专线：400-833-2663或020-87376637</a>
+						</li>
+						<li>
+							<a href="#" id="showsclick"><img src="img/header1_06.jpg" alt="" /></a>
+						</li>
+						<li>
+							<a href="http://www.sina.com.cn/"><img src="img/header1_08.jpg" alt="" /></a>
+						</li>
+					</ul>
+					<p id="shows"><img src="img/header111_03.jpg" alt="" /></p>
+				</div>
+				<script type="text/javascript">
+				$(document).ready(function(){
+					$("#shows").hide();
+					$("#showsclick").click(function(){
+						var $shows=$("#shows");
+						if($shows.is(":hidden")){
+							$("#shows").css("display","block");
+						}else{
+							$("#shows").css("display","none");
+						}
+					})
+				})
+			</script>
+			</div>
+			<div class="headerBottom">
+				<ul class="clearfix">
+					<li>
+						<a href="home.html">首页</a>
+					</li>
+					<li>
+						<a href="about/introtuce.html">关于普邦</a>
+						<div>
+							<a href="about/introtuce.html">企业介绍</a>
+							<a href="about/distro.html">业务分布</a>
+							<a href="about/partners.html">合作伙伴</a>
+							<a href="about/history.html">发展历程</a>
+							<a href="about/cultural.html">普邦文化</a>
+						</div>
+					</li>
+					<li>
+						<a href="news/list.html">公司资讯</a>
+						<div>
+							<a href="news/list.html">新闻动态</a>
+							<a href="news/project.html">最新项目</a>
+						</div>
+					</li>
+					<li>
+						<a href="scope/design.html">业务范围</a>
+						<div>
+							<a href="scope/design.html">规划设计</a>
+							<a href="scope/designtwo.html">工程</a>
+							<a href="scope/designthree.html">苗木</a>
+							<a href="scope/designfour.html">工程养护</a>
+						</div>
+					</li>
+					<li>
+						<a href="showcases.html">精选案例</a>
+					</li>
+					<li>
+						<a href="research/intro.html">研发中心</a>
+						<div>
+							<a href="research/intro.html">概况</a>
+							<a href="research/profile.html">研发载体</a>
+							<a href="research/news.html">研发动态</a>
+							<a href="research/exchange.html">合作交流</a>
+							<a href="research/achievement.html">相关成果</a>
+						</div>
+					</li>
+					<li>
+						<a href="responsibility.html">社会责任</a>
+					</li>
+					<li>
+						<a href="jobs/concept.html">人才战略</a>
+						<div class="dropdown-menu">
+							<a href="jobs/concept.html">人才理念</a>
+							<a href="jobs/social.html">社会招聘</a>
+							<a href="jobs/campus.html">校园招聘</a>
+							<a href="jobs/process.html">招聘流程</a>
+						</div>
+					</li>
+					<li>
+						<a href="investment/stock.html">投资者门户</a>
+						<div>
+							<a href="investment/stock.html">公司股价</a>
+							<a href="investment/reports.html">信息披露</a>
+							<a href="investment/media.html">调研报告</a>
+							<a href="http://irm.p5w.net/ssgs/S002663" target="_blank">投资者互动</a>
+							<a href="investment/contancts.html">联系方式</a>
+							<a href="investment/fair.html">公平在身边</a>
+						</div>
+					</li>
+					<li>
+						<a href="contanct/typeone.html">联系我们</a>
+						<div>
+							<a href="contanct/typeone.html">普邦园林</a>
+							<a href="contanct/typetwo.html">普邦子公司</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<!-- ------------------------------------------------header  结束-- ------------------------------------------------>
+		<!-- ------------------------------------------------slider  开始-- ------------------------------------------------>
+		<section class="slider" id="slider">
+			<a class="slider-btn slider-prev"></a>
+			<a class="slider-btn slider-next"></a>
+			<ul class="slider-flow">
+				<li style="background-image: url(img/banner1.jpg);" class="hidden">
+					<div class="slider-area center">
+						<a href="#" class="titlebox">
+							<h1>普邦股份</h1>
+							<h2>PUBANG HOLDINGS</h2>
+							<h3>创造人与自然和谐之美</h3>
+							<p>全产业链经营，为客户提供全方位、高品质的专业服务</p>
+						</a>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner2.jpg);" class="on">
+					<div class="slider-area center">
+						<a href="#" class="titlebox">
+							<h1>规划设计</h1>
+							<h2>DESIGN</h2>
+							<h3>灵感引路，铸经典之作</h3>
+							<p>10大设计所，400多位国际化设计师，众多大品牌客户的信赖之选</p>
+						</a>
+					</div>
+				</li>
+				<li style="background-image: url(img/banner3.jpg);" class="hidden">
+					<div class="slider-area center">
+						<a href="#" class="titlebox">
+							<h1>工程</h1>
+							<h2>CONSTRUCTION</h2>
+							<h3>品质领航，赢恒久信誉</h3>
+							<p>18年的专注与厚积，业务遍布全国110个城市，成功打造上千个优秀项目</p>
+						</a>
+					</div>
+				</li>
+				<li class="hidden" _background="img/banner4.jpg">
+					<div class="slider-area center">
+						<a href="" class="titlebox">
+							<h1>生态环境</h1>
+							<h2>ECOTOPE</h2>
+							<h3>众志同心，推生态和谐</h3>
+							<p>运用现代先进工艺，让低碳环保成为城市的生活态度</p>
+						</a>
+					</div>
+				</li>
+				<li class="hidden" _background="img/banner5.jpg">
+					<div class="slider-area center">
+						<a href="" class="titlebox">
+							<h1>苗木</h1>
+							<h2>NURSERY</h2>
+							<h3>用心育苗，造蓬勃生机</h3>
+							<p>5大主营苗圃，8000亩种植基地，300多种优质苗木，造无限生机</p>
+						</a>
+					</div>
+				</li>
+				<li class="hidden" _background="img/banner6.jpg">
+					<div class="slider-area center">
+						<a href="" class="titlebox">
+							<h1>工程养护</h1>
+							<h2>MAINTENANCE</h2>
+							<h3>科学养护，延大美园景</h3>
+							<p>机械化养护，现代化管理，为客户提供专业、优质的服务</p>
+						</a>
+					</div>
+				</li>
+			</ul>
+			<div class="slider-nav">
+				<a class=""></a>
+				<a class="on"></a>
+				<a></a>
+				<a></a>
+				<a></a>
+				<a></a>
+			</div>
+		</section>
+
+			<!-- ------------------------------------------------slider  结束-- ------------------------------------------------>
+
+		<!-- ------------------------------------------------contant  开始-- ------------------------------------------------>
+		<div class="contant">
+			<div class="mincontant clearfix">
+				<div class="mincontantLeft">
+					<div class="mincontantLeftTop">
+						<h2>
+							<a href="#">精选案例</a>
+							<small class="more">SHOWCASES</small>
+						</h2>
+						<a href="showcases.html"><img src="img/contant.jpg" alt="" /></a>
+					</div>
+
+					<div class="mincontantLeftBottom">
+						<h3><a href="#">北京北科建泰禾丽春湖院子</a></h3>
+						<small class="font">筑就中国式居住理想</small>
+						<p>
+							<strong>18000</strong>平方米
+							<i class="link-to"><img src="img/contant2_03.jpg" alt="" /></i>
+						</p>
+						<a href="#">
+							<span class="bottomleft">南宁金源一品</span>
+							<span class="bottomright">14000平方米 <i class="link-to"><img src="img/contant2_03.jpg" alt="" /></i></span>
+						</a>
+						<a href="#">
+							<span class="bottomleft">南宁嘉和城温莎北郡一期</span>
+							<span class="bottomright">58000平方米 <i class="link-to"><img src="img/contant2_03.jpg" alt="" /></i></span>
+						</a>
+						<a href="#">
+							<span class="bottomleft">东莞南部湾万科城</span>
+							<span class="bottomright">28000平方米 <i class="link-to"><img src="img/contant2_03.jpg" alt="" /></i></span>
+						</a>
+					</div>
+				</div>
+				<div class="mincontantCenter">
+					<h2>
+							<a href="news/list.html">公司资讯</a>
+							<small class="more">NEWS</small>
+					</h2>
+					<div class="nlist">
+						<div style="display: none;" class="adBoxs">
+							<a href="#" class="imagebox"><img src="img/contant8.jpg"></a>
+							<div class="sep"></div>
+							<a href="#" style="margin-bottom:20px;">
+								<small class="date">2017-02-21</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="name">普邦股份再度荣膺万科集团景观绿化“A类供应商”称号</span>
+							</a>
+						</div>
+						<div style="display: none;" class="adBoxs">
+							<a href="#" class="imagebox"><img src="img/contant7.jpg"></a>
+							<div class="sep"></div>
+							<a href="#" style="margin-bottom:20px;">
+								<small class="date">2017-02-03</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="name">普邦股份2017年会盛典圆满结束</span>
+							</a>
+						</div>
+						<div style="display: block; opacity: 0.92132;" class="adBoxs">
+							<a href="#" class="imagebox"><img src="img/contan4.jpg"></a>
+							<div class="sep"></div>
+							<a href="#" style="margin-bottom:20px;">
+								<small class="date">2017-01-16</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="name">我司荣获走进广东“最美生态”系列活动生态公益贡献奖</span>
+							</a>
+						</div>
+						<div style="display: block; opacity: 0.92132;" class="adBoxs">
+							<a href="#" class="imagebox"><img src="img/contant3.jpg"></a>
+							<div class="sep"></div>
+							<a href="#" style="margin-bottom:20px;">
+								<small class="date">2017-01-13</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="name">我司喜获深圳万科“2016年度质量管理优秀奖”</span>
+							</a>
+						</div>
+						<div style="display: none;" class="adBoxs">
+							<a href="#" class="imagebox"><img src="img/contan5.jpg"></a>
+							<div class="sep"></div>
+							<a href="#" style="margin-bottom:20px;">
+								<small class="date">2017-01-13</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="name">普邦股份荣膺贵阳万科2016年“最佳合作伙伴”称号</span>
+							</a>
+						</div>
+						<div style="display: none;" class="adBoxs">
+							<a href="#" class="imagebox"><img src="img/contant6.jpg"></a>
+							<div class="sep"></div>
+							<a href="#" style="margin-bottom:20px;">
+								<small class="date">2017-01-12</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="name">南宁分公司2016年工作总结会暨2017年年会圆满举行</span>
+							</a>
+						</div>
+						<div class="yyy">
+							<span class="yy y1"></span>
+							<span class="yy y2 current"></span>
+							<span class="yy y3"></span>
+						</div>
+						<div>
+							<a href="#" style="margin-bottom:16px;">
+								<small class="date">2017-01-11</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="names">我司与华南理工大学景观学术沙龙暨校企合作签约仪式顺利举行</span>
+							</a>
+						</div>
+						<div>
+							<a href="#" style="margin-bottom:16px;">
+								<small class="date">2017-01-10</small>
+								<i class="link-tos right"><img src="img/contant2_03.jpg" alt="" /></i>
+								<span class="names">2016年度普邦股份规划设计事业部颁奖典礼盛大举行</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			<div class="mincontantRight">
+				<div class="mincontantRightTop">
+					<h2>
+						<a href="research/intro.html">最新项目</a>
+						<small class="more">NEW PROJECTS</small>
+					</h2>
+					<img src="img/contant9.jpg" alt="" />
+					<a href="#">
+							<span class="bottomleft">深圳浅海</span>
+							<span class="bottomright">70000平方米 <i class="link-to"><img src="img/contant2_03.jpg" alt="" /></i></span>
+					</a>
+				</div>
+				<div class="mincontantRightBottom">
+					<h2>
+						<a href="#">研发中心</a>
+						<small class="more">INSTITUTE NEWS</small>
+					</h2>
+					<a href="#" style="margin-bottom:20px;">
+						<small class="date">2016-04-11</small>
+						<span class="name">我司产学研合作项目获省科技厅资助100万</span>
+						<i ><img src="img/contant2_03.jpg" alt="" /></i>
+					</a>
+					<a href="#" style="margin-bottom:20px;">
+						<small class="date">2016-03-31</small>
+						<span class="name">我司荣获2013-2014年度越秀区科技进步奖二等奖</span>
+						<i class="link-to right"><img src="img/contant2_03.jpg" alt="" /></i>
+					</a>
+					<a href="#" style="margin-bottom:20px;">
+						<small class="date">2016-03-30</small>
+						<span class="name">我司两项目顺利通过省级科技成果鉴定</span>
+						<i class="link-to right"><img src="img/contant2_03.jpg" alt="" /></i>
+					</a>
+					<a href="#" style="margin-bottom:20px;">
+						<small class="date">2015-09-08</small>
+						<span class="name">我司七位专家入选广州市重大行政决策论证专家库</span>
+						<i class="link-to right"><img src="img/contant2_03.jpg" alt="" /></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- ------------------------------------------------contant  结束-- ------------------------------------------------>
+
+		<!-- ------------------------------------------------footer  开始-- ------------------------------------------------>
+		<footer>
+			<div class="footerTop">
+				<div class="footerTopTop clearfix">
+					<dl>
+						<dt>
+	                    <a href="about/introtuce.html">关于普邦</a>
+	                </dt>
+						<dd>
+							<a href="about/introtuce.html">企业介绍</a>
+						</dd>
+						<dd>
+							<a href="about/distro.html">业务分布</a>
+						</dd>
+						<dd>
+							<a href="about/partners.html">合作伙伴</a>
+						</dd>
+						<dd>
+							<a href="about/history.html">发展历程</a>
+						</dd>
+						<dd>
+							<a href="about/cultural.html">普邦文化</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="news/list.html">公司资讯</a>
+		                </dt>
+						<dd>
+							<a href="news/list.html">新闻动态</a>
+						</dd>
+						<dd>
+							<a href="news/project.html">最新项目</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="scope/design.html">业务范围</a>
+		                </dt>
+						<dd>
+							<a href="scope/design.html">规划设计</a>
+						</dd>
+						<dd>
+							<a href="scope/designtwo.html">工程</a>
+						</dd>
+						<dd>
+							<a href="scope/designthree.html">苗木</a>
+						</dd>
+						<dd>
+							<a href="scope/designfour.html">工程养护</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="showcases.html">精选案例</a>
+		                </dt>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="research/intro.html">研发中心</a>
+		                </dt>
+						<dd>
+							<a href="research/intro.html">概况</a>
+						</dd>
+						<dd>
+							<a href="research/profile.html">研发载体</a>
+						</dd>
+						<dd>
+							<a href="research/news.html">研发动态</a>
+						</dd>
+						<dd>
+							<a href="research/exchange.html">合作交流</a>
+						</dd>
+						<dd>
+							<a href="research/achievement.html">相关成果</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="responsibility.html">社会责任</a>
+		                </dt>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="jobs/concept.html">人才战略</a>
+		                </dt>
+						<dd>
+							<a href="jobs/concept.html">人才理念</a>
+						</dd>
+						<dd>
+							<a href="jobs/social.html">社会招聘</a>
+						</dd>
+						<dd>
+							<a href="jobs/campus.html">校园招聘</a>
+						</dd>
+						<dd>
+							<a href="jobs/process.html">招聘流程</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="investment/stock.html">投资者门户</a>
+		                </dt>
+						<dd>
+							<a href="investment/stock.html">公司股价</a>
+						</dd>
+						<dd>
+							<a href="investment/reports.html">信息披露</a>
+						</dd>
+						<dd>
+							<a href="investment/media.html">调研报告</a>
+						</dd>
+						<dd>
+							<a href="http://irm.p5w.net/ssgs/S002663" target="_blank">投资者互动</a>
+						</dd>
+						<dd>
+							<a href="investment/contancts.html">联系方式</a>
+						</dd>
+						<dd>
+							<a href="investment/fair.html">公平在身边</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                   <a href="contanct/typeone.html">联系我们</a>
+		                </dt>
+						<dd>
+							<a href="contanct/typeone.html">普邦园林</a>
+						</dd>
+						<dd>
+							<a href="contanct/typetwo.html">普邦子公司</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="footerTopCenter">
+					<img src="img/footer1_03.jpg" alt="" class="imgfooter" />
+				</div>
+				<div class="footerTopBottom clearfix">
+					<span class="bold">合作伙伴：</span>
+					<p>
+						<a href="#">上海普天园林景观设计有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">广东普邦苗木种养有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">四川深蓝环保科技有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">广东城建达设计院有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">深圳市前海邦你贷互联网金融服务有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">北京博睿赛思信息系统集成有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">北京宝盛科技有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">广州普融小额贷款有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">泛亚环境国际控股有限公司 <i class="link-to"><img src="img/footer2_03.jpg" alt="" /></i></a>
+					</p>
+				</div>
+			</div>
+			<div class="footerBottom">
+				<div class="smallfooterBottom clearfix">
+					<p class="bold">联系</p>
+					<div class="smallfooterBottomleft">
+						<p>广州普邦园林股份有限公司</p>
+						<p>
+							<a target="_blank" href="#">地址：广州市越秀区寺右新马路南<br />二街18号广兴华花园首层</a>
+						</p>
+						<p>邮编：510600</p>
+					</div>
+					<div class="smallfooterBottomcenter">
+						<p>电话：400-833-2663或020-87376637</p>
+						<p>传真：020-87363265</p>
+						<p>网站：
+							<a href="#">www.pblandscape.com</a>
+						</p>
+						<p>Email：
+							<a href="mailto:"></a>
+						</p>
+					</div>
+					<div class="smallfooterBottomright">
+						<p><span>工程：</span>
+							<a target="_blank" href="">广州</a>
+							<a target="_blank" href="">北京</a>
+							<a target="_blank" href="">上海</a>
+							<a target="_blank" href="">武汉</a>
+							<a target="_blank" href="">南宁</a>
+							<a target="_blank" href="">海南</a><br />
+							<a target="_blank" href="">青岛</a>
+							<a target="_blank" href="">成都</a>
+							<a target="_blank" href="">西安</a>
+							<a target="_blank" href="">福建</a>
+							<a target="_blank" href="">东莞</a>
+						</p>
+						<p><span>设计：</span>
+							<a target="_blank" href="">广州</a>
+							<a target="_blank" href="">北京</a>
+							<a target="_blank" href="">上海</a>
+							<a target="_blank" href="">武汉</a>
+							<a target="_blank" href="">海南</a>
+							<a target="_blank" href="">成都</a>
+						</p>
+						<p><span>苗木：</span>
+							<a target="_blank" href="">广州</a>
+							<a target="_blank" href="">肇庆</a>
+							<a target="_blank" href="">湛江</a>
+							<a target="_blank" href="">湖北</a>
+							<a target="_blank" href="">江西</a>
+							<a target="_blank" href="">河北</a><br />
+							<a target="_blank" href="">四川</a>
+							<a target="_blank" href="">山东</a>
+							<a target="_blank" href="">海南</a>
+						</p>
+					</div>
+				</div>
+				<div class="footerp">粤ICP备10226206号2007-2013 pubang landscape architecture co.，ltd</div>
+			</div>
+		</footer>
+		
+		<a href="investment/fair.html"><img src="img/fair.png" alt="" class="fair_float" /></a>
+		<!-- ------------------------------------------------footer  结束-- ------------------------------------------------>
+		<!--[if lte IE 6]>
+			<script src="/Public/home/js/DD_belatedPNG_0.0.8a-min.js"></script>
+			<script>DD_belatedPNG.fix('img');</script>
+			<script type="text/javascript" src="/Public/share/js/minmax.js"></script>
+		<![endif]-->
+		<script src="js/jquery-1.js"></script>
+		<!--<script type="text/javascript">
+			$(function() {
+				$(window).scroll(function() {
+					if($(window).scrollTop() >= 100) {
+						$('#btn_top').fadeIn(300);
+					} else {
+						$('#btn_top').fadeOut(300);
+					}
+				});
+				$('#btn_top').click(function() {
+					$('html,body').animate({
+						scrollTop: '0px'
+					}, 0);
+				});
+			});
+		</script>
+-->
+		<script src="js/plugins.js"></script>
+		<!--<script src="js/bootstrap.js"></script>-->
+		<script src="js/jquery.js"></script>
+		<script src="js/iscroll.js"></script>
+		<!--<script type="text/javascript">
+			// 菜单scroll，当菜单栏宽度过短时隐藏两边按钮
+			if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+				var $scrollNav = $('nav.sub-nav');
+				if($scrollNav.length) {
+					$children = $scrollNav.find('.inner a');
+					var scrollWidth = 0,
+						scrollLeft = 0;
+					$children.each(function() {
+						//console.log($(this).outerWidth(true));
+						var ele = $(this);
+						if(ele.hasClass('on')) {
+							scrollLeft = scrollWidth;
+						}
+						scrollWidth += ele.outerWidth(true);
+					});
+					//隐藏两边按钮
+					if($scrollNav.width() - 40 >= scrollWidth) {
+						$scrollNav.addClass('hideDir');
+
+					} else {
+						scrollWidth += 40;
+						$scrollNav.find('.inner').width(scrollWidth);
+						var myScroll = new iScroll($scrollNav[0], {
+							vScroll: false,
+							hScroll: true,
+							hScrollbar: false,
+							onBeforeScrollStart: function(e) {
+								$('.sub-nav').addClass('start');
+								e.preventDefault();
+							},
+							onTouchEnd: function() {
+								$('.sub-nav').removeClass('start');
+							}
+						});
+						myScroll.scrollTo(-scrollLeft);
+					}
+				}
+			}
+		</script>-->
+		<script>
+			$(function() {
+				var adCurrent = 2;
+				var fadeInTime = 1000;
+				var settime = setInterval(runing, 3000);
+				var stop = false;
+				//鼠标点击小图标当前位置
+				$('.yyy .yy').click(function() {
+					if($(this).hasClass('current'))
+						return false;
+					$('.yyy .yy').removeClass('current');
+					$(this).addClass('current');
+					local = $('.yyy .yy.current').index();
+					$('.adBoxs').hide();
+					$('.adBoxs').eq(adCurrent).fadeIn(fadeInTime);
+					adCurrent++;
+					$('.adBoxs').eq(adCurrent).fadeIn(fadeInTime);
+					adCurrent++;
+					if(adCurrent >= 6) {
+						adCurrent = 0;
+					}
+				});
+				//mouseMove
+				$('.yy,.nlist').hover(function() {
+					stop = true
+					//clearInterval(settime);
+				}, function() {
+					stop = false;
+					//settime = setInterval(runing,3000);
+				});
+				//runing
+				function runing() {
+					if(stop == true) return false;
+					$('.adBoxs').hide();
+					$('.adBoxs').eq(adCurrent).fadeIn(fadeInTime);
+					adCurrent++;
+					$('.adBoxs').eq(adCurrent).fadeIn(fadeInTime);
+					adCurrent++;
+					if(adCurrent >= 6) {
+						adCurrent = 0;
+					}
+					//小图标当前位置
+					local = $('.yyy .yy.current').index();
+					$('.yyy .yy').removeClass('current');
+					if(local == 2) {
+						$('.yyy .yy').eq(0).addClass('current');
+					} else {
+						$('.yyy .yy').eq(local + 1).addClass('current');
+					}
+				}
+			});
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,148 @@
+.headerBottom ul li:nth-of-type(1){
+	background-image: none;	
+}
+.headerBottom ul li:nth-of-type(1) a{
+	color:#999999;
+}
+.headerBottom ul li:nth-of-type(8){
+	background-image: linear-gradient(to bottom, #989898 0%, #545454 100%);	
+}
+.headerBottom ul li:nth-of-type(8)>a{
+	color:#fff;
+}
+/*-----------------------------------------------------concept   开始-----------------------------------------------------*/
+.concept,.social,.procss{
+	padding-left:150px;
+	padding-top:25px;
+	padding-bottom:68px;
+}
+.concept h1,.social h1,.procss h1{
+	font-size:28px;
+	color:#484848;
+}
+.concept h1 small,.social h1 small,.procss h1 small{
+	display: block;
+	margin-top: 9px;
+	font-size:8px;
+	color:#aa99bb;
+	margin-bottom: 43px;
+}
+.concept p{
+	width:954px;
+	font-size:14px;
+	line-height: 24px;
+	color:#5a5a5a;
+}
+/*-----------------------------------------------------concept   结束-----------------------------------------------------*/
+
+/*-----------------------------------------------------social   开始-----------------------------------------------------*/
+.social .forms{
+	width:958px;
+	padding-bottom:18px;
+	border-bottom:1px dashed #999999;
+}
+.social .forms label,.social .forms select,.social .forms input,.social .forms button{
+	float:left;
+}
+.social .forms button{
+	cursor: pointer;
+}
+.social .forms label{
+	font-size:14px;
+	line-height: 35px;
+	color:#5a5a5a;
+	margin-right: 5px;
+}
+.social .forms select{
+	border:1px solid #cccccc;
+	 -webkit-appearance: none;
+	 padding-left: 10px;
+	width:137px;
+	height:32px;
+	cursor: pointer;
+	margin-right: 17px;
+	background: url(../../img/drop.gif) no-repeat right center;
+}
+.social .forms select option{
+	font-size:12px;
+}
+.social .forms select:nth-of-type(2){
+	width:80px;
+}
+.social .forms input{
+	width:169px;
+	height:32px;
+	 padding-left: 10px;
+	 border:1px solid #cccccc;
+	 margin-right: 4px;
+}
+.tables table{
+	margin-bottom:48px;
+}
+.tables h2{
+	font-size:24px;
+	line-height: 70px;
+	color:#484848;
+}
+.tables table{
+	width:940px;
+}
+.tables table .one{
+	width:457px;
+	padding-left:6px;
+}
+.tables table .one a{
+	color:#707070;
+}
+.tables table .one a:hover{
+	color:#000;
+}
+.tables table tr th{
+	color:#5a5a5a;
+	font-weight: bold;
+}
+.tables table tr{
+	height:41px;
+	line-height: 41px;
+	font-size:14px;
+	color:#707070;
+}
+.tables table .two{
+	width:198px;
+}
+.tables table .three{
+	width:200px;
+}
+.social ul{
+	display: block;
+	width:524px;
+	padding-left:416px;
+}
+.social ul li{
+	float:left;
+	width:24px;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	margin-right:4px;
+}
+.social ul li:nth-of-type(1){
+	background: #666666;
+}
+.social ul li:nth-of-type(1) a{
+	color:#fff;
+}
+.social ul li:hover{
+	background: #e0dcdc;
+}
+/*-----------------------------------------------------social    结束-----------------------------------------------------*/
+.campuss{
+	background:rgb(240,240,240);
+}
+/*-----------------------------------------------------process   开始-----------------------------------------------------*/
+.procss p{
+	font-size:14px;
+	line-height:24px;
+	color:#5a5a5a;
+}
+/*-----------------------------------------------------process   结束-----------------------------------------------------*/

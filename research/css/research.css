@@ -1,0 +1,267 @@
+.headerBottom ul li:nth-of-type(2){
+	background-image: none;	
+}
+.headerBottom ul li:nth-of-type(2) a,.headerBottom ul li:nth-of-type(1) a{
+	color:#999999;
+}
+.headerBottom ul li:nth-of-type(6){
+	background-image: linear-gradient(to bottom, #989898 0%, #545454 100%);	
+}
+.headerBottom ul li:nth-of-type(6)>a{
+	color:#fff;
+}
+.achievement{
+	overflow-x: hidden;
+}
+/*-- ------------------------------------------------intro   开始-- ------------------------------------------------*/
+.intro{
+	width:960px;
+	margin: 0 auto;
+	padding-bottom:120px;
+}
+.intro .newsss .oneul{
+	padding-top:24px;
+	padding-left: 210px;
+}
+.intro .newsss .oneul li{
+	float:left;
+	text-align: center;
+	width:146px;
+	margin-right: 50px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+.intro .newsss .oneul li:nth-of-type(3){
+	margin-right: 0px;
+}
+.intro .newsss .oneul li h2 div:nth-of-type(1){
+	font-size:24px;
+	color:#484848;
+	margin-top: 12px;
+}
+.intro .newsss .oneul li h2 small{
+	font-size:10px;
+	line-height:26px;
+	color:#999999;
+}
+#tabCon_0{
+	font-size:14px;
+	line-height:26px;
+	color:#5a5a5a;
+	margin-top: 18px;
+}
+.active{
+	background: url(../../img/designsmall_03.jpg) no-repeat center bottom;
+}
+.historycontent{
+	padding-left:0px;
+}
+#news  .oneul li {
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+#news .oneul:hover li{
+  opacity: 0.5;
+}
+#news:hover li:hover {
+  opacity: 1;
+}
+/*-- ------------------------------------------------intro   结束-- ------------------------------------------------*/
+
+/*-- ------------------------------------------------profile   开始-- ------------------------------------------------*/
+#tabCon_0  h4{
+	margin-top: 30px;
+	line-height:49px;
+	font-size:24px;
+	color:#484848;
+}
+#tabCon_0  h4:nth-of-type(2){
+	margin-top: 0px;
+}
+#tabCon_0  h4 a{
+	font-size:14px;
+	color:#34ba88;
+	float:right;
+}
+.twoul{
+	padding-left:0px;
+}
+.twoul li,.threeul li{
+	float:left;
+	margin-right: 72px;
+	margin-bottom: 46px;
+}
+.twoul li:nth-of-type(3),.twoul li:nth-of-type(6),.threeul li:nth-of-type(3),.threeul li:nth-of-type(6),.threeul li:nth-of-type(9){
+	margin-right: 0px;
+}
+.twoul li a,.threeul li a{
+	margin-bottom: 15px;
+}
+.twoul li p,.threeul li p,.threep{
+	font-size:14px;
+	color:#5a5a5a;
+}
+.threeul li{
+	width:273px;
+	margin-right: 70px;
+}
+.threep{
+	margin-top: 18px;
+	line-height:25px;
+}
+/*-- ------------------------------------------------profile   结束-- ------------------------------------------------*/
+/*-- ------------------------------------------------news   开始-- ------------------------------------------------*/
+.news,.exchange{
+	width:960px;
+	margin: 0 auto;
+	padding-top:25px;
+	padding-bottom: 80px;
+}
+.news h2,.exchange h2{
+	font-size:28px;
+	color:#484848;
+}
+.news h2 .smallEnglish,.exchange h2 .smallEnglish{
+	display: block;
+	font-size:10px;
+	color:#999999;
+	margin-top: 8px;
+}
+.news>ul li{
+	width:272px;
+	float:left;
+	margin-top: 36px;
+	margin-right: 72px;
+}
+.news>ul li:nth-of-type(3),.news ul li:nth-of-type(6),.news ul li:nth-of-type(9){
+	margin-right: 0px;
+}
+.news>ul li a img{
+	margin-bottom: 5px;
+}
+.news>ul li a .dataed{
+	font-size:12px;
+	line-height:30px;
+	color:#999999;
+}
+.news>ul li a p{
+	font-size:14px;
+	color:#707070;
+	line-height: 17px;
+}
+.news>ul li a p small{
+	display: inline-block;
+	width:9px;
+	height:13px;
+	background:url(../../img/contant2_03.jpg) no-repeat left center;
+}
+.fenye{
+	margin-top: 100px;
+	text-align: center;
+}
+.fenye ul{
+	padding-left:414px;
+}
+.fenye ul li{
+	cursor: pointer;
+	float:left;
+	width:24px;
+	height:28px;
+	text-align: center;
+	line-height: 28px;
+	margin-right: 4px;
+}
+.fenye ul li:nth-of-type(1){
+	background: #666666;
+}
+.fenye ul li:nth-of-type(1) a{
+	color:#fff;
+}
+.fenye ul li:nth-of-type(1):hover{
+	background: #666666;
+}
+.fenye ul li:nth-of-type(1):hover a{
+	color:#fff;
+}
+.fenye ul li:hover{
+	background: #ccc;
+	opacity: 0.5;
+}
+.fenye ul li:hover a{
+	color:#fff;
+}
+/*-- ------------------------------------------------news    结束-- ------------------------------------------------*/
+
+/*<!-- ------------------------------------------------exchange  开始-- ------------------------------------------------>*/
+.exchange h2{
+	margin-bottom: 45px;
+}
+.exchange p{
+	font-size:14px;
+	line-height:24px;
+	color:#5a5a5a;
+	margin-bottom: 18px;
+}
+/*<!-- ------------------------------------------------exchange  结束-- ------------------------------------------------>*/
+
+/*<!-- ------------------------------------------------achievement  开始-- ------------------------------------------------>*/
+.tab-content h1{
+	margin-bottom: 42px;
+	font-size:30px;
+	color:#color: #484848;
+}
+.tab-content h1 small{
+	display: block;
+	font-size:12px;
+	color:#999999;
+}
+.research-list li{
+	float:left;
+	margin-right: 126px;
+}
+.research-list li .name{
+	display: block;
+    margin: 3px 0;
+    line-height: 1.25;
+    height: 2.5em;
+}
+.dateds{
+    font-size: 12px;
+    color:#ccc;
+}
+.column{
+	width:168px;
+}
+.column a img{
+	max-width: 168px;
+    max-height: 250px;
+    border:1px solid #999999;
+}
+.threeuls li:nth-of-type(3),.fouruls li:nth-of-type(3),.fouruls li:nth-of-type(6),
+.fouruls li:nth-of-type(9),.fiveuls li:nth-of-type(3),.sixuls li:nth-of-type(2),.sixuls li:nth-of-type(4),.sixuls li:nth-of-type(6){
+	margin-right: 0px;
+}
+.threeuls li:nth-of-type(4),.threeuls li:nth-of-type(5){
+	margin-top: 20px;
+}
+.fiveuls{
+	padding-top:40px;
+}
+.sixuls li{
+	width:342px;
+	float:left;
+	padding:15px;
+	background: #e5e5e5;
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+.sixuls li .list-inner p{
+	width:196px;
+	font-size:12px;
+	color:#5a5a5a;
+	padding-left: 8px;
+}
+.sixuls li .list-inner a,.sixuls li .list-inner p{
+	float:left;
+}
+/*<!-- ------------------------------------------------achievement  结束-- ------------------------------------------------>*/

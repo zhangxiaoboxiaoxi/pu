@@ -1,0 +1,120 @@
+.headerBottom ul li:nth-of-type(1){
+	background-image: none;	
+}
+.headerBottom ul li:nth-of-type(1) a{
+	color:#999999;
+}
+.headerBottom ul li:nth-of-type(3){
+	background-image: linear-gradient(to bottom, #989898 0%, #545454 100%);	
+}
+.headerBottom ul li:nth-of-type(3)>a{
+	color:#fff;
+}
+/*-- ------------------------------------------------newslist  star-- ------------------------------------------------*/
+.newslist,.projects{
+	padding-left:150px;
+	padding-top:25px;
+	padding-bottom:68px;
+}
+.newslist h1,.projects h1{
+	font-size:28px;
+	color:#484848;
+}
+.newslist h1 small,.projects h1 small{
+	display: block;
+	margin-top: 9px;
+	font-size:8px;
+	color:#aa99bb;
+	margin-bottom: 43px;
+}
+.newslist ul li{
+	float:left;
+	width:272px;
+	margin-right: 72px;
+	margin-bottom: 36px;
+}
+.newslist ul li a small{
+	display: block;
+	font-size:10px;
+	color:#999999;
+	margin-top: 17px;
+	margin-bottom: 12px;
+}
+.newslist ul li a p{
+	font-size:14px;
+	line-height:17px;
+	color:#707070;
+}
+.newslist ul li a p img{
+	margin-left: 4px;
+}
+.newslist ul li a:hover p{
+	color:#000;
+}
+.uls{
+	padding-left:276px;
+	margin-top: 50px;
+}
+.uls ul li{
+	float:left;
+	width:24px;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	margin-right:4px;
+}
+.uls ul li a{
+	color:#707070;
+}
+.uls ul li:nth-of-type(1){
+	background: #666666;
+}
+.uls ul li:nth-of-type(1) a{
+	color:#fff;
+}
+.uls ul li:hover{
+	background: #e0dcdc;
+}
+.uls ul li:hover a{
+	color:#000;
+}
+ .uls ul li:nth-of-type(12){
+	width:44px;
+	height:28px;
+}
+/*-- ------------------------------------------------newslist  end-- ------------------------------------------------*/
+
+/*-- ------------------------------------------------project  star-- ------------------------------------------------*/
+.projects .maxul{
+	padding-bottom: 25px;
+}
+.projects .maxul li{
+	margin-bottom: 30px;
+}
+.projects .maxul li .calendar,.projects .maxul li .content{
+	float: left;
+}
+.projects .maxul li .calendar {
+	padding-top: 28px;
+    width: 67px;
+    height: 43px;
+    text-align: center;
+    background: url(../../img/data.png) no-repeat left top;
+    margin-right: 20px;
+}
+.projects .maxul li .calendar .month{
+	display: block;
+	font-size:16px;
+	color:#000000;
+	font-weight: bold;
+}
+.projects .maxul li .content p,.projects .maxul li .content small{
+	font-size:14px;
+	display: block;
+	margin-top: 4px;
+	color:#5a5a5a;
+}
+.projects .maxul li .content small{
+	color:#999999;
+}
+/*-- ------------------------------------------------project  end-- ------------------------------------------------*/

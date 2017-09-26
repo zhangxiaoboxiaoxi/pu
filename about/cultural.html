@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/lanrenzhijia.css" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+		<script src="../js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+				$(document).ready(function(){
+					$("#shows").hide();
+					$("#showsclick").click(function(){
+						var $shows=$("#shows");
+						if($shows.is(":hidden")){
+							$("#shows").css("display","block");
+						}else{
+							$("#shows").css("display","none");
+						}
+					})
+				})
+			</script>
+	</head>
+
+	<body id="abouts" data-components="tab,acorr,linkfollower,colorbox,hashreload:#0">
+		<!-- ------------------------------------------------header  开始-- ------------------------------------------------>
+		<header>
+			<div class="headerTop clearfix">
+				<a href="home.html"><img src="../img/header1_03.jpg" alt="" /></a>
+				<div class="headerTopRight">
+					<ul class="clearfix">
+						<li>
+							<a href="#">苗木购销平台</a>
+						</li>
+						<li>
+							<a href="">|</a>
+						</li>
+						<li>
+							<a href="#">员工登录</a>
+						</li>
+						<li>
+							<a href="">|</a>
+						</li>
+						<li>
+							<a href="#">业务专线：400-833-2663或020-87376637</a>
+						</li>
+						<li>
+							<a href="#" id="showsclick"><img src="../img/header1_06.jpg" alt="" /></a>
+						</li>
+						<li>
+							<a href="#"><img src="../img/header1_08.jpg" alt="" /></a>
+						</li>
+					</ul>
+					<p id="shows"><img src="../img/header111_03.jpg" alt="" /></p>
+				</div>
+			</div>
+			<div class="headerBottom">
+				<ul class="clearfix">
+					<li>
+						<a href="../home.html">首页</a>
+					</li>
+					<li>
+						<a href="introtuce.html">关于普邦</a>
+						<div>
+							<a href="introtuce.html">企业介绍</a>
+							<a href="distro.html">业务分布</a>
+							<a href="partners.html">合作伙伴</a>
+							<a href="history.html">发展历程</a>
+							<a href="cultural.html">普邦文化</a>
+						</div>
+					</li>
+					<li>
+						<a href="../news/list.html">公司资讯</a>
+						<div>
+							<a href="../news/list.html">新闻动态</a>
+							<a href="../news/project.html">最新项目</a>
+						</div>
+					</li>
+					<li>
+						<a href="../scope/design.html">业务范围</a>
+						<div>
+							<a href="../scope/design.html">规划设计</a>
+							<a href="../scope/designtwo.html">工程</a>
+							<a href="../scope/designthree.html">苗木</a>
+							<a href="../scope/designfour.html">工程养护</a>
+						</div>
+					</li>
+					<li>
+						<a href="../showcases.html">精选案例</a>
+					</li>
+					<li>
+						<a href="../research/intro.html">研发中心</a>
+						<div>
+							<a href="../research/intro.html">概况</a>
+							<a href="../research/profile.html">研发载体</a>
+							<a href="../research/news.html">研发动态</a>
+							<a href="../research/exchange.html">合作交流</a>
+							<a href="../research/achievement.html">相关成果</a>
+						</div>
+					</li>
+					<li>
+						<a href="../responsibility.html">社会责任</a>
+					</li>
+					<li>
+						<a href="../jobs/concept.html">人才战略</a>
+						<div class="dropdown-menu">
+							<a href="../jobs/concept.html">人才理念</a>
+							<a href="../jobs/social.html">社会招聘</a>
+							<a href="../jobs/campus.html">校园招聘</a>
+							<a href="../jobs/process.html">招聘流程</a>
+						</div>
+					</li>
+					<li>
+						<a href="../investment/stock.html">投资者门户</a>
+						<div>
+							<a href="../investment/stock.html">公司股价</a>
+							<a href="../investment/reports.html">信息披露</a>
+							<a href="../investment/media.html">调研报告</a>
+							<a href="http://irm.p5w.net/ssgs/S002663" target="_blank">投资者互动</a>
+							<a href="../investment/contancts.html">联系方式</a>
+							<a href="../investment/fair.html">公平在身边</a>
+						</div>
+					</li>
+					<li>
+						<a href="../contanct/typeone.html">联系我们</a>
+						<div>
+							<a href="../contanct/typeone.html">普邦园林</a>
+							<a href="../contanct/typetwo.html">普邦子公司</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<!-- header  结束-->
+		<!-- ------------------------------------------------banner  开始-- ------------------------------------------------>
+		<div class="banner">
+			<img src="../img/about1.jpg" alt="" />
+		</div>
+		<!-- ------------------------------------------------banner  结束-- ------------------------------------------------>
+
+		<!-- ------------------------------------------------nav  开始-- ------------------------------------------------>
+		<nav class="sub-nav">
+			<div class="inner">
+				<a href="introtuce.html">企业介绍</a>
+				<a href="distro.html">业务分布</a>
+				<a href="partners.html">合作伙伴</a>
+				<a href="history.html">发展历程</a>
+				<a href="cultural.html" class="on">普邦文化</a>
+			</div>
+		</nav>
+		<!-- ------------------------------------------------nav  结束-- ------------------------------------------------>
+
+		<!-- ------------------------------------------------cultural  开始-- ------------------------------------------------>
+		<section class="abouts content content-page" id="content">
+			<div class="column-left role-tabs side-tabs " id="abouts_tabs">
+				<div class="right">
+					<h1>
+					普邦文化
+					<small>CULTURE</small>
+				</h1>
+					<nav data-offset-top="24" data-offset-bottom="400">
+						<a href="#0">公司理念</a>
+						<a href="#1">员工风采</a>
+						<a href="#2">公司视频</a>
+						<a href="#3">邦刊物</a>
+						<div class="follower"></div>
+					</nav>
+				</div>
+			</div>
+			<div class="column-right culturals" id="abouts_contents">
+				<div class="tab-content row-col2 hidden">
+					<h1>
+					公司理念
+					<small>PHILOSOPHY</small>
+				</h1>
+					<div class="row pre">
+						<p></p>
+						<h4>普施甘露，惠泽万邦。<br /><br />十多年来，普邦股份就如一艘满载着绿色希望与理想的航船，朝着“美丽中国”的理想，不断迎风破浪，扬帆奋进。普邦人诚信务实，以精品铸就品牌，以品牌赢得市场。<br />我们始终秉承着“质量第一、诚信为先”的做事宗旨，以“创造人与自然和谐之美”为经营理念，以绿色环保为经营导向，将与众不同作为一种本能，使创新与客户需求、市场实际对接。<br />为客户着想，让作品说话。十多年来的一体化服务，一丝不苟，精益求精，铸就了一批又一批的园林精品，让我们赢得了广大客户的信赖，获得了业界的认可和尊重，形成了立足华南辐射全国的业务市场。<br />普邦股份的成长之路，是追逐梦想航行的轨迹。普邦将以更优质的服务，优异的业绩，回报客户，回报股东，回报社会。<br /><br />公司愿景　Corporate Ultimate Aim <br />“成为园林行业中可持续发展的卓越企业”<br />普邦园林坚持可持续发展战略，包括创新持续发展、核心竞争力持续发展、文化持续发展及制度持续发展。在坚持可持续发展的前提下，普邦股份更注重追求企业的卓越品质，通过优质的产品质量与服务赢得客户、回馈社会，进一步提升品牌效应，以实力铸就卓越的园林企业。<br /><br />使命宗旨　Mission Aim<br />“创造人与自然和谐之美”<br />园林行业肩负着改善人类生活环境和使环境可持续发展的重要社会责任。作为国内园林行业的龙头企业，普邦股份始终坚持在快速发展的人工环境和大自然之间寻找平衡，在以雄厚的实力和务实的态度为客户打造精品的同时，将和谐的理念融入其中，美化人居环境，提高人们的生活质量，将创造人与自然和谐之美作为每一位普邦人的神圣使命。<br /><br />战略目标　Strategy Goal <br />1、近期目标（2013-2018）：实现现代化股份制企业的转型<br />通过管理思想现代化、管理组织现代化、管理控制现代化及管理手段现代化将科学管理与人际关系相结合，实现产权清晰、权责明确、政企分开、管理科学，达到股份企业现代化管理的目标。<br />2、中期目标（2018-2023）：成为领跑中国的园林景观专家<br />守诚信重质量，不断提高专业水平，树立鲜明的品牌形象，充分发挥普邦人追求卓越的精神，真正实现普邦处处现卓越的愿景，将普邦打造成为中国园林景观行业的领跑者。<br />3、远期目标（2023以后）：成为国际化的园林企业<br />以可持续发展的理念制定发展战略，以不断创新的精神整合有效资源，通过引进国外先进的技术、设备资源以及运营管理模式，逐步实现技术、产品及经营管理国际化的目标，将普邦股份塑造成为国际化的园林企业。<br /><br />社会责任　Social Responsibility<br />“改善人居环境、创造生态宜居园林景观”<br />普邦人专注于园林景观营建，在生态园林及人居环境建设中发挥着重要作用。我们在致力于为客户打造精品的同时，更将改善人居环境、创造生态宜居园林景观为己任，不断开拓进取，勇往直前，希望通过普邦人的努力为蓝色的地球营造更多的绿色。<br /><br />核心理念　Core Concept<br />诚信：立诚守信，言真行实。<br />务实：务实进取，励精图治。<br />创新：与时俱进，开拓创新。<br />和谐：团结协作，营造和谐。<br />卓越：品牌至上，追求卓越。<br />共赢：合作发展、互利共赢。　<br /><br />发展理念　Development Concept <br />“稳健发展，追求卓越，打造精品，创建品牌”<br /><br />管理理念　Management Concept <br />“以人为本，科学管理，高效运作”<br /></h4>
+					</div>
+				</div>
+				<div class="tab-content staffs row-col2 hidden  clearfix">
+					<h1>
+					员工风采
+					<small>STAFF PRESENCE</small>
+				</h1>
+					<div class="column-left" id="staffs">
+						<ul class="staff-list">
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1b6b0cm8e1st8g1jt41roa189d5.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2017-01-13</small></a>
+									</p>
+									<h4><a href="#">“健康海岛，快乐奔跑”——普邦园林海南分公司参加海口富力马拉松赛</a></h4>
+									<p class="desc">&nbsp; &nbsp; “生命不息，跑步不止”。1月8日清晨5点，晨曦中的海口已经沸腾，普邦股份</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1b60m9ep8gla135fca6f60kjt6.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2017-01-09</small></a>
+									</p>
+									<h4><a href="#">青岛分公司2016年储备人才培训会顺利召开</a></h4>
+									<p class="desc">&nbsp; &nbsp; 12月24日至25日，青岛分公司召开了为期两天的储备人才培训会。此次培训</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1b2ldoqvl167v4fs1np41l87bhv6.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-11-28</small></a>
+									</p>
+									<h4><a href="#">青春普邦，欢乐开跑——我司参加广州城市乐跑赛</a></h4>
+									<p class="desc">&nbsp; &nbsp; &nbsp; &nbsp;11月25日下午，第四届广州城市乐跑赛在海心沙</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1b2cpq8s51r241m5l1m6l1fs11mln5.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-11-25</small></a>
+									</p>
+									<h4><a href="#">“跑出快乐、跑出健康、跑出友谊”——普邦股份海南分公司参与三亚城市乐跑赛</a></h4>
+									<p class="desc">&nbsp; &nbsp; 为加深员工之间的友谊，推动关注员工的健康与生活品质，11月18日下午，普</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1b02pufii1f5l1djj10kg1omf1h9n5.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-10-27</small></a>
+									</p>
+									<h4><a href="#">“携手公益，跑出健康”——西安城市乐跑赛圆满结束</a></h4>
+									<p class="desc">&nbsp; &nbsp; 9月21日，西安分公司员工在总经理郑凯应先生、副总经理赵建伟先生的带领下</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1avbhcf371ef61gdc14b1uh11nba7.JPG_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-10-18</small></a>
+									</p>
+									<h4><a href="#">第四届普邦篮球嘉年华活动圆满结束</a></h4>
+									<p class="desc">&nbsp; &nbsp; &nbsp; &nbsp;9月24日，由篮球社、企业文化部、工会委员会主</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1ato4m3pi11us1bmm1ioo1cmt5.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-09-28</small></a>
+									</p>
+									<h4><a href="#">我司于“广东省女插花员职业职能技能大赛”中斩获佳绩</a></h4>
+									<p class="desc">&nbsp; &nbsp; &nbsp; &nbsp;9月20日，广州市总工会女职工部于珠江公园举办</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1aras7t74gio1r7j11nj1i93m236.JPG_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-08-29</small></a>
+									</p>
+									<h4>
+										<a href="#">“慈善行动，乐享健康”——普邦园林北京分公司参与社区公益乐跑赛</a>
+									</h4>
+									<p class="desc">&nbsp; &nbsp; 为了履行社会责任，鼓励员工健康生活，彰显普邦“团结协作、以人为本”的文化</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1ap9ilijc1hid1h0vpr91iup128d5.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-08-04</small></a>
+									</p>
+									<h4><a href="#">涂善忠董事长就我司青年干部演讲提高班作动员讲话</a></h4>
+									<p class="desc">为提高我司青年干部的演讲技能、逻辑思维和语言表达能力，由人力资源部主办的“2016普邦园林演讲提高班</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+							<li class="list-item">
+								<a class="list-left" href="#"><img src="../Data/thumbnail/share/images/default/p1aiaa9nkp1o48eavktaljhrgv9.jpg_150x100.jpg"></a>
+								<div class="list-right">
+									<p>
+										<a class="date" href="#"><small>2016-05-09</small></a>
+									</p>
+									<h4><a href="#">普邦五•四青年节主题活动顺利举行</a></h4>
+									<p class="desc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2016年5月4日，“就是这么YOUN</p>
+									<p class="align-right">
+										<a href="#" class="link1">详细 &gt;</a>
+									</p>
+								</div>
+							</li>
+						</ul>
+						<!-- 分页 start -->
+						<div class="sabrosus">
+							<div class="pager role-pager" data-content="#staffs">
+								<ul style="padding-left:140px;">
+									<li><span class='current'>1</span></li>
+									<li>
+										<a href="#">2</a>
+									</li>
+									<li>
+										<a href="#">3</a>
+									</li>
+									<li>
+										<a href="#">4</a>
+									</li>
+									<li>
+										<a href="#">5</a>
+									</li>
+									<li>
+										<a href="#">6</a>
+									</li>
+									<li>
+										<a href="#">7</a>
+									</li>
+									<li>
+										<a href="#">></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- 分页 end -->
+					</div>
+					<div class="column-right">
+						<dl class="minbook-list">
+							<dt class="list-title">电子杂志</dt>
+							<dd class="list-item">
+								<a target="_blank">
+									<div class="imagebox left">
+										<img src="../Data/thumbnail/share/images/default/p18c5723uki4e1dakns8al71fm77.jpg_58x58.jpg"></div>
+									<p>《BANG！》<br />&nbsp;&nbsp;第三期</p>
+								</a>
+							</dd>
+							<dd class="list-item">
+								<a target="_blank">
+									<div class="imagebox left">
+										<img src="../Data/thumbnail/share/images/default/p18c5723ukjoug1bdod1q1m139g6.jpg_58x58.jpg"></div>
+									<p>《BANG！》<br />&nbsp;&nbsp;第二期</p>
+								</a>
+							</dd>
+							<dd class="list-item">
+								<a target="_blank">
+									<div class="imagebox left">
+										<img src="../Data/thumbnail/share/images/default/p18c5723ugo3i1mm2i1p97uec5.jpg_58x58.jpg"></div>
+									<p>《BANG！》<br />&nbsp;&nbsp;第一期</p>
+								</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="tab-content row-col2 hidden" id="videos">
+					<h1>
+					公司视频
+					<small>VIDEO</small>
+				</h1>
+					<ul class="booklist clearfix culturalbooklisttwo">
+						<li class="list-item" style="width:240px;height:170px;margin-bottom:3em;">
+							<a data-iframe="true" data-href="/abouts/cultural_video/id-1525.html" data-width="780" data-height="600" title="普邦园林企业宣传片2014">
+								<div class="imagebox" style="width:240px;height:140px;"><img style="max-width:240px;max-height:140px;" src="../Data/thumbnail/share/images/default/p191hrui3sto21aog1acv13fg1jkr5.jpg_240x140.jpg"></div>
+								<p style="width:100%;font-weight:bold;">普邦园林企业宣传片2014</p>
+								<div style="width:100%;"></div>
+							</a>
+						</li>
+						<li class="list-item" style="width:240px;height:170px;margin-bottom:3em;">
+							<a data-iframe="true" data-href="/abouts/cultural_video/id-1463.html" data-width="780" data-height="600" title="普邦园林2013年度年会精编2">
+								<div class="imagebox" style="width:240px;height:140px;"><img style="max-width:240px;max-height:140px;" src="../Data/thumbnail/share/images/default/p191kaioid1ml317uajk069mpuh5.jpg_240x140.jpg"></div>
+								<p style="width:100%;font-weight:bold;">普邦园林2013年度年会精编2</p>
+								<div style="width:100%;"></div>
+							</a>
+						</li>
+						<li class="list-item" style="width:240px;height:170px;margin-bottom:3em;">
+							<a data-iframe="true" data-href="/abouts/cultural_video/id-1462.html" data-width="780" data-height="600" title="普邦园林2013年度年会精编1">
+								<div class="imagebox" style="width:240px;height:140px;"><img style="max-width:240px;max-height:140px;"src="../Data/thumbnail/share/images/default/p191kaioid1ml317uajk069mpuh5.jpg_240x140.jpg"></div>
+								<p style="width:100%;font-weight:bold;">普邦园林2013年度年会精编1</p>
+								<div style="width:100%;"></div>
+							</a>
+						</li>
+					</ul>
+					<!-- 分页 start -->
+					<div class="sabrosus">
+						<div class="pager role-pager" data-content="#videos">
+							<ul> </ul>
+						</div>
+					</div>
+					<!-- 分页 end -->
+				</div>
+				<div class="tab-content row-col2 hidden" id="books">
+					<h1>
+					邦刊物
+					<small>MAGAZINE</small>
+				</h1>
+					<ul class="booklist culturalbooklist">
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p1a4u9d4cc1b0t190u1u5r147t19so5.png_118x160.jpg"></div>
+								<p>2015-秋季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p19r6jvb9p19co17r117tm1pgs1vc5.png_118x160.jpg"></div>
+								<p>2015-夏季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p19j30piag1ju7adq1dreql2jll5.jpg_118x160.jpg"></div>
+								<p>2015-春季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p19bjide1mu2b1j7d1c4012n419cu5.jpg_118x160.jpg"></div>
+								<p>2014-冬季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p197g6se8gvdv1pvg17ro1glg4nv5.jpg_118x160.jpg"></div>
+								<p>2014-秋季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p192jg1ntt1l29fj432m1c028cn5.jpg_118x160.jpg"></div>
+								<p>2014-夏季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p18m4hsc2tirdc3172a52m1eha5.jpg_118x160.jpg"></div>
+								<p>2014-春季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p18ato7r36votjov3101rcl16ul7.jpg_118x160.jpg"></div>
+								<p>2013-秋季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p18ato7r351papeu1l501d1qb8t6.jpg_118x160.jpg"></div>
+								<p>2013-夏季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p18ato7r361o7l1ule11ovn41mbo8.jpg_118x160.jpg"></div>
+								<p>2013-春季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p189fuoch9bv9j26btr12pl8ol5.jpg_118x160.jpg"></div>
+								<p>2012-秋季-《邦》</p>
+							</a>
+						</li>
+						<li class="list-item">
+							<a  target="_blank">
+								<div class="imagebox">
+									<img src="../Data/thumbnail/share/images/default/p18ato7r37mtgn6tvhcnt71r5b.jpg_118x160.jpg"></div>
+								<p>2012-春季-《邦》</p>
+							</a>
+						</li>
+					</ul>
+					<!-- 分页 start -->
+					<div class="sabrosus">
+						<div class="pager role-pager culturalsabrosus" data-content="#books">
+							<ul>
+								<li><span class='current'>1</span></li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#">></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- 分页 end -->
+				</div>
+			</div>
+		</section>
+
+		<div style="clear:both;"></div>
+
+		<!-- ------------------------------------------------cultural  结束-- ------------------------------------------------>
+
+		<!-- footer  开始-->
+		<footer>
+			<div class="footerTop">
+				<div class="footerTopTop clearfix">
+					<dl>
+						<dt>
+	                    <a href="introtuce.html">关于普邦</a>
+	                </dt>
+						<dd>
+							<a href="introtuce.html">企业介绍</a>
+						</dd>
+						<dd>
+							<a href="distro.html">业务分布</a>
+						</dd>
+						<dd>
+							<a href="partners.html">合作伙伴</a>
+						</dd>
+						<dd>
+							<a href="history.html">发展历程</a>
+						</dd>
+						<dd>
+							<a href="cultural.html">普邦文化</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="../news/list.html">公司资讯</a>
+		                </dt>
+						<dd>
+							<a href="../news/list.html">新闻动态</a>
+						</dd>
+						<dd>
+							<a href="../news/project.html">最新项目</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="../scope/design.html">业务范围</a>
+		                </dt>
+						<dd>
+							<a href="../scope/design.html">规划设计</a>
+						</dd>
+						<dd>
+							<a href="../scope/designtwo.html">工程</a>
+						</dd>
+						<dd>
+							<a href="../scope/designthree.html">苗木</a>
+						</dd>
+						<dd>
+							<a href="../scope/designfour.html">工程养护</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="../showcases.html">精选案例</a>
+		                </dt>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="../research/intro.html">研发中心</a>
+		                </dt>
+						<dd>
+							<a href="../research/intro.html">概况</a>
+						</dd>
+						<dd>
+							<a href="../research/profile.html">研发载体</a>
+						</dd>
+						<dd>
+							<a href="../research/news.html">研发动态</a>
+						</dd>
+						<dd>
+							<a href="../research/exchange.html">合作交流</a>
+						</dd>
+						<dd>
+							<a href="../research/achievement.html">相关成果</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="../responsibility.html">社会责任</a>
+		                </dt>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="../jobs/concept.html">人才战略</a>
+		                </dt>
+						<dd>
+							<a href="../jobs/concept.html">人才理念</a>
+						</dd>
+						<dd>
+							<a href="../jobs/social.html">社会招聘</a>
+						</dd>
+						<dd>
+							<a href="../jobs/campus.html">校园招聘</a>
+						</dd>
+						<dd>
+							<a href="../jobs/process.html">招聘流程</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                    <a href="../investment/stock.html">投资者门户</a>
+		                </dt>
+						<dd>
+							<a href="../investment/stock.html">公司股价</a>
+						</dd>
+						<dd>
+							<a href="../investment/reports.html">信息披露</a>
+						</dd>
+						<dd>
+							<a href="../investment/media.html">调研报告</a>
+						</dd>
+						<dd>
+							<a href="http://irm.p5w.net/ssgs/S002663" target="_blank">投资者互动</a>
+						</dd>
+						<dd>
+							<a href="../investment/contancts.html">联系方式</a>
+						</dd>
+						<dd>
+							<a href="../investment/fair.html">公平在身边</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+		                   <a href="../contanct/typeone.html">联系我们</a>
+		                </dt>
+						<dd>
+							<a href="../contanct/typeone.html">普邦园林</a>
+						</dd>
+						<dd>
+							<a href="../contanct/typetwo.html">普邦子公司</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="footerTopCenter">
+					<img src="../img/footer1_03.jpg" alt="" class="imgfooter" />
+				</div>
+				<div class="footerTopBottom clearfix">
+					<span class="bold">合作伙伴：</span>
+					<p>
+						<a href="#">上海普天园林景观设计有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">广东普邦苗木种养有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">四川深蓝环保科技有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">广东城建达设计院有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">深圳市前海邦你贷互联网金融服务有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">北京博睿赛思信息系统集成有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">北京宝盛科技有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">广州普融小额贷款有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+						<a href="#">泛亚环境国际控股有限公司 <i class="link-to"><img src="../img/footer2_03.jpg" alt="" /></i></a>
+					</p>
+				</div>
+			</div>
+			<div class="footerBottom">
+				<div class="smallfooterBottom clearfix">
+					<p class="bold">联系</p>
+					<div class="smallfooterBottomleft">
+						<p>广州普邦园林股份有限公司</p>
+						<p>
+							<a target="_blank" href="#">地址：广州市越秀区寺右新马路南<br />二街18号广兴华花园首层</a>
+						</p>
+						<p>邮编：510600</p>
+					</div>
+					<div class="smallfooterBottomcenter">
+						<p>电话：400-833-2663或020-87376637</p>
+						<p>传真：020-87363265</p>
+						<p>网站：
+							<a href="#">www.pblandscape.com</a>
+						</p>
+						<p>Email：
+							<a href="mailto:"></a>
+						</p>
+					</div>
+					<div class="smallfooterBottomright">
+						<p><span>工程：</span>
+							<a target="_blank" href="">广州</a>
+							<a target="_blank" href="">北京</a>
+							<a target="_blank" href="">上海</a>
+							<a target="_blank" href="">武汉</a>
+							<a target="_blank" href="">南宁</a>
+							<a target="_blank" href="">海南</a><br />
+							<a target="_blank" href="">青岛</a>
+							<a target="_blank" href="">成都</a>
+							<a target="_blank" href="">西安</a>
+							<a target="_blank" href="">福建</a>
+							<a target="_blank" href="">东莞</a>
+						</p>
+						<p><span>设计：</span>
+							<a target="_blank" href="">广州</a>
+							<a target="_blank" href="">北京</a>
+							<a target="_blank" href="">上海</a>
+							<a target="_blank" href="">武汉</a>
+							<a target="_blank" href="">海南</a>
+							<a target="_blank" href="">成都</a>
+						</p>
+						<p><span>苗木：</span>
+							<a target="_blank" href="">广州</a>
+							<a target="_blank" href="">肇庆</a>
+							<a target="_blank" href="">湛江</a>
+							<a target="_blank" href="">湖北</a>
+							<a target="_blank" href="">江西</a>
+							<a target="_blank" href="">河北</a><br />
+							<a target="_blank" href="">四川</a>
+							<a target="_blank" href="">山东</a>
+							<a target="_blank" href="">海南</a>
+						</p>
+					</div>
+				</div>
+				<div class="footerp">粤ICP备10226206号2007-2013 pubang landscape architecture co.，ltd</div>
+			</div>
+		</footer>
+		
+		<!-- footer  结束-->
+		<script src="../js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/plugins.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

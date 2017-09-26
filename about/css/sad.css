@@ -1,0 +1,107 @@
+.banner img{
+	width:100%;
+}
+.maxpartnes .content .partners .column .imgbox {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    height:125px;
+}
+.awpanel {
+  background: #f4f4f4;
+  clear: both;
+  margin-bottom: 1em;
+  overflow: hidden;
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  *zoom: 1;
+}
+.awpanel:before,
+.awpanel:after {
+  content: " ";
+  display: table;
+}
+.awpanel:after {
+  clear: both;
+}
+.awpanel .arrow {
+  position: absolute;
+  margin: -15px 0 0 2em;
+  width: 28px;
+  height: 15px;
+  background-image: url("../images/slices.png");
+  background-repeat: no-repeat;
+  background-position: -118px -45px;
+  -webkit-transition: left 0.5s;
+  transition: left 0.5s;
+}
+.awpanel dl {
+  padding: 1.5em 2em;
+}
+.awpanel dd {
+  line-height: 1.5;
+  margin: .5em 0;
+  width: 26em;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+}
+.awpanel .name {
+  display: block;
+  margin-left: 18px;
+}
+.awpanel .before {
+  float: left;
+  height: 18px;
+  width: 18px;
+  background-image: url("../images/slices.png");
+  background-repeat: no-repeat;
+  background-position: -160px -1px;
+  _background-image: url("../images/slices.gif");
+}
+.awpanel.noarrow {
+  height: 0;
+}
+.awpanel.noarrow .arrow {
+  display: none;
+}
+.partners {
+  *zoom: 1;
+  margin-right: -72px;
+}
+.partners:before,
+.partners:after {
+  content: " ";
+  display: table;
+}
+.partners:after {
+  clear: both;
+}
+.partners .column {
+  float: left;
+  width: 186px;
+  margin-right: 72px;
+}
+.partners .column {
+  margin-bottom: 1em;
+}
+.partners .column .imgbox {
+  height: 125px;
+}
+.partners .column .imgbox img {
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.partners .column .imgbox:hover img {
+  opacity: .5;
+}
+.partners .column{
+	margin-bottom: 1em;
+	float:left;
+	width:186px;
+	margin-right: 72px;
+	background: red;
+}
